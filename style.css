@@ -5,6 +5,63 @@
     
 }
 
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 15px 25px;
+  z-index: 100000;
+  background-color: #0000004b;
+}
+
+header .logo{
+  position: relative;
+  font-family: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.6s;
+
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style-type: none;
+
+}
+
+header ul li a{
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500px;
+  transition: 0.6s;
+
+}
+
+/* .banner{
+  position: relative;
+  width: 100px;
+  height: 100vh;
+
+} */
+
 body{
     background: linear-gradient(0deg, rgba(255,175,93,0.7400210084033614) 0%, rgba(82,60,12,1) 86%);
 }
