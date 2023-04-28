@@ -416,16 +416,20 @@ row-gap: 500px;
   .container1{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    padding: 1rem;
     flex-direction: column;
+    margin-left: 5rem;
+    
+    
   }
 }
 @media (min-width: 576px) { 
   .container1{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    /* margin: 2rem; */
     /* flex-direction: column; */
+    margin-left: 8rem;
   }
 }
 
@@ -454,7 +458,7 @@ row-gap: 500px;
 @media (min-width: 1200px) {
   .container1{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
   }
 
@@ -462,5 +466,9 @@ row-gap: 500px;
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .container1{
+    display: flex;
+    /* justify-content: space-between; */
 
+  }
  }
