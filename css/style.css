@@ -412,13 +412,24 @@ row-gap: 500px;
   
 
 /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 200px) and (max-width: 350px) { 
+  .container1{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    flex-direction: column;
+    margin-left: -5px;
+    
+    
+  }
+}
 @media (min-width: 350px) and (max-width: 576px) { 
   .container1{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     flex-direction: column;
-    margin-left: 5rem;
+    margin-left: 7px;
     
     
   }
@@ -468,6 +479,7 @@ row-gap: 500px;
 @media (min-width: 1400px) {
   .container1{
     display: flex;
+    flex-wrap: wrap;
     /* justify-content: space-between; */
 
   }
